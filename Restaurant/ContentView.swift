@@ -10,6 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
 //        utkarsh project demo
+        ZStack{
+            Color.gray.ignoresSafeArea(.all)
+        }
 
         VStack {
             Image(systemName: "globe")
